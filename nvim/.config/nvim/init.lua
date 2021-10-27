@@ -16,6 +16,7 @@ require ("plugins.treesitter")
 require ("plugins.nvimtree")
 require ("plugins.bufferline")
 require ("plugins.gitsigns")
+require ("plugins.vimtex")
 
 -- Keymaps
 require ("settings.keymap")
