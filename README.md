@@ -1,1 +1,6 @@
-A simple dotfile configuration.
+### DOTFILES ###
+
+To install use **stow**
+```
+stow nvim
+```
