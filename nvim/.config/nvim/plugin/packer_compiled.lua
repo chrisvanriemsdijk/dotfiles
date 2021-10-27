@@ -160,6 +160,10 @@ _G.packer_plugins = {
   ["vim-devicons"] = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/vim-devicons"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/vimtex"
   }
 }
 

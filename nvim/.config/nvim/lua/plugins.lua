@@ -45,4 +45,5 @@ return require('packer').startup(function(use)
   use {'akinsho/bufferline.nvim'}
 
   use 'lervag/vimtex'
+  use "Pocco81/Catppuccino.nvim"
 end)
