@@ -69,6 +69,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Catppuccino.nvim"] = {
+    loaded = true,
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/Catppuccino.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/LuaSnip"
@@ -104,6 +108,10 @@ _G.packer_plugins = {
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/null-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
