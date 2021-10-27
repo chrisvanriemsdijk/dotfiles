@@ -73,6 +73,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    config = { "\27LJ\1\2U\0\2\6\0\5\0\14\16\3\1\0007\2\0\1%\4\1\0>\2\3\2\15\0\2\0T\3\2�%\2\2\0T\3\1�%\2\3\0%\3\4\0\16\4\2\0\16\5\0\0$\3\5\3H\3\2\0\6 \b\b\nerror\nmatch�\3\1\0\4\0\b\0\v4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\6\0003\2\3\0001\3\4\0:\3\5\2:\2\a\1>\0\2\1G\0\1\0\foptions\1\0\0\26diagnostics_indicator\0\1\0\15\23right_trunc_marker\b\20max_name_length\3\18\15close_icon\b\22left_trunc_marker\b\tview\16multiwindow\rtab_size\3\20\20separator_style\tthin\vnumber\16superscript\22max_prefix_length\3\25\22buffer_close_icon\b\28show_buffer_close_icons\2\20show_close_icon\2\fnumbers\fordinal\16diagnostics\rnvim_lsp\18modified_icon\b●\nsetup\15bufferline\frequire\0" },
+    loaded = true,
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/cmp-buffer"
@@ -116,6 +121,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    config = { "\27LJ\1\2;\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\14nvim-tree\frequire\0" },
+    loaded = true,
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
@@ -136,9 +146,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/chris/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
-  ["telescope-fzf-native.nvim"] = {
+  ["telescope-fzy-native.nvim"] = {
     loaded = true,
-    path = "/home/chris/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
+    path = "/home/chris/.local/share/nvim/site/pack/packer/start/telescope-fzy-native.nvim"
   },
   ["telescope-project.nvim"] = {
     loaded = true,
@@ -155,6 +165,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: bufferline.nvim
+time([[Config for bufferline.nvim]], true)
+try_loadstring("\27LJ\1\2U\0\2\6\0\5\0\14\16\3\1\0007\2\0\1%\4\1\0>\2\3\2\15\0\2\0T\3\2�%\2\2\0T\3\1�%\2\3\0%\3\4\0\16\4\2\0\16\5\0\0$\3\5\3H\3\2\0\6 \b\b\nerror\nmatch�\3\1\0\4\0\b\0\v4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\6\0003\2\3\0001\3\4\0:\3\5\2:\2\a\1>\0\2\1G\0\1\0\foptions\1\0\0\26diagnostics_indicator\0\1\0\15\23right_trunc_marker\b\20max_name_length\3\18\15close_icon\b\22left_trunc_marker\b\tview\16multiwindow\rtab_size\3\20\20separator_style\tthin\vnumber\16superscript\22max_prefix_length\3\25\22buffer_close_icon\b\28show_buffer_close_icons\2\20show_close_icon\2\fnumbers\fordinal\16diagnostics\rnvim_lsp\18modified_icon\b●\nsetup\15bufferline\frequire\0", "config", "bufferline.nvim")
+time([[Config for bufferline.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+try_loadstring("\27LJ\1\2;\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
+time([[Config for nvim-tree.lua]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)

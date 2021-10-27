@@ -13,7 +13,9 @@ require ("lsp")
 require ("plugins.telescope")
 require ("plugins.lspkind")
 require ("plugins.treesitter")
-
+require ("plugins.nvimtree")
+require ("plugins.bufferline")
+require ("plugins.gitsigns")
 
 -- Keymaps
 require ("settings.keymap")

@@ -38,4 +38,10 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope-project.nvim'
   use 'sainnhe/gruvbox-material'
 
+  use {
+    'kyazdani42/nvim-tree.lua',
+    config = function() require'nvim-tree'.setup {} end
+  }
+  use {'akinsho/bufferline.nvim'}
+
 end)

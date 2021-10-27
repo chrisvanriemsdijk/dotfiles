@@ -25,6 +25,9 @@ vim.api.nvim_set_keymap('n', '<leader>n', ":lua require('plugins.telescope').my_
 
 
 -- Buffers
-vim.api.nvim_set_keymap('n', '<leader>bda', ':BufferCloseAllButCurrent<CR>', {noremap = false, silent = false})
-vim.api.nvim_set_keymap('n', '<leader>bn', ':BufferNext<CR>', {noremap = false, silent = false})
-vim.api.nvim_set_keymap('n', '<leader>bp', ':BufferPrevious<CR>', {noremap = false, silent = false})
+vim.api.nvim_set_keymap('n', '<leader>bn', ':bnext<CR>', {noremap = false, silent = false})
+vim.api.nvim_set_keymap('n', '<leader>bp', ':bprevious<CR>', {noremap = false, silent = false})
+vim.api.nvim_set_keymap('n', '<leader>bd', ':bd<CR>', {noremap = false, silent = false})
+
+-- NvimTree
+vim.api.nvim_set_keymap('n', '<C-t>', ':NvimTreeToggle<CR>', {noremap = false, silent = true})
