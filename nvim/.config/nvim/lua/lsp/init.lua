@@ -20,3 +20,15 @@ require'lspconfig'.texlab.setup{
   capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 }
 
+require'lspconfig'.tsserver.setup{
+  on_attach = function(client)
+    client.resolved_capabilities.document_formatting = false
+  end,
+  capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+}
+
+require'lspconfig'.intelephense.setup{
+  capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+}
+
+

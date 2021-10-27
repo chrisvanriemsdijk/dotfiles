@@ -8,6 +8,7 @@ require ("settings.color")
 
 -- LSP
 require ("lsp")
+require ("lsp.null-ls")
 
 -- Plugins config
 require ("plugins.telescope")
